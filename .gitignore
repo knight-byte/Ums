@@ -1,0 +1,6 @@
+bin/*
+lib/*
+pyvenv.cfg
+ums/test/*
+ums/__main__.py
+ums/**/__pycache__/*

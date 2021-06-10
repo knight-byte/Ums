@@ -1,0 +1,12 @@
+LICENCE
+README.md
+setup.cfg
+setup.py
+ums/__init__.py
+ums/__main__.py
+ums/ums_main.py
+ums.egg-info/PKG-INFO
+ums.egg-info/SOURCES.txt
+ums.egg-info/dependency_links.txt
+ums.egg-info/requires.txt
+ums.egg-info/top_level.txt
