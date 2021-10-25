@@ -4,3 +4,5 @@ pyvenv.cfg
 ums/test/*
 ums/__main__.py
 ums/**/__pycache__/*
+.vscode/*
+venv/*

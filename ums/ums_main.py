@@ -73,7 +73,6 @@ class User:
         # The Values are scraped from the get response a then passed as parameter to the POST request
         soup = bs(login_response.content, "lxml")
         login_data = {
-            "__LASTFOCUS": soup.find('input', {'name': "__LASTFOCUS"}).get('value'),
             "__EVENTTARGET": soup.find('input', {'name': "__EVENTTARGET"}).get('value'),
             "__EVENTARGUMENT": soup.find('input', {'name': "__EVENTARGUMENT"}).get('value'),
             "__VIEWSTATE": soup.find('input', {'name': "__VIEWSTATE"}).get('value'),
